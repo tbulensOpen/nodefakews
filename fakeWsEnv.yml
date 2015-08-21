@@ -1,0 +1,11 @@
+# Values: ignore, missingUrlException
+urlMappingMissing: ignore
+
+# Values: ignore, missingKeyException
+keyMissing: ignore
+
+# Post: Values: ignore, replace, writeAfterWriteException
+dataAlreadyExist: replace
+
+# Get: Values: ignore, missingDataException
+dataMissing: ignore

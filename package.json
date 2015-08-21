@@ -1,0 +1,22 @@
+{
+  "name": "nodefake",
+  "version": "1.0.0",
+  "description": "fake ws using node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "ted",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.3.2",
+    "jshint": "^2.8.0"
+  },
+  "dependencies": {
+    "bower": "^1.4.1",
+    "node-redis": "^0.1.7",
+    "redis": "^0.12.1",
+    "underscore": "^1.8.3",
+    "yamljs": "^0.2.3"
+  }
+}
