@@ -1,0 +1,16 @@
+urlMappings:
+  - url: http://localhost:8080/hello
+    context: clientAppName
+    requestParameters: id
+    value:
+  - url: http://localhost:8080/goodBye
+    context: clientAppName2
+    requestParameters: id
+    value:
+  - url: http://localhost:8080/hel*
+    context: clientAppName
+    requestParameters: id
+    value: value
+  - url: http://localhost:8080/setupFakeData
+    requestParameters: clientAppNameid,clientAppName2id
+    value: value
